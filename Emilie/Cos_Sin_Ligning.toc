@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Algebra}{2}{}%
+\contentsline {section}{\numberline {2}Ligninger}{7}{}%
+\contentsline {section}{\numberline {3}Matrix eksempel}{10}{}%
+\contentsline {section}{\numberline {4}Brøker og rødder}{10}{}%

@@ -1,0 +1,121 @@
+\section{Ligninger}
+
+Vi har nu kigget på almen algebra. Vi vil nu bruge denne viden til at løse ligninger. Før vi starter, vil vi først definere, hvad en ligning er.
+
+En ligning med en ukendt variabel $x$ er et udsagn, der er sandt for en bestemt værdi af $x$, men hvor vi endnu ikke kender denne værdi. Vi kan manipulere ligningen ved hjælp af algebra for at finde den værdi af $x$, som gør ligningen sand.
+
+Et meget simpelt eksempel er:
+
+\[
+x = 2
+\]
+
+Dette er en ligning, og vi kan tydeligt se, at for at udsagnet er sandt, skal $x = 2$.
+
+Går vi et skridt videre, kan vi overveje ligningen:
+
+\[
+x + 1 = 2
+\]
+
+Vi ønsker at finde en værdi af $x$, som gør ligningen sand. Vi kan logisk se, at hvis $x = 1$, så er $1 + 1 = 2$, og ligningen holder.  
+
+Mere strukturelt kan vi bruge algebra til at isolere $x$ på den ene side af lighedstegnet. Vi skal huske, at en ligning er en **ligevægt**.
+
+Her har vi:
+
+\[
+x + 1 = 2
+\]
+
+Vi isolerer $x$ ved at trække 1 fra på begge sider:
+
+\[
+x + 1 - 1 = 2 - 1 \Rightarrow x = 1
+\]
+
+Nu kan vi direkte aflæse, at $x = 1$. Dette er det essentielle princip bag ligningsløsning: brug algebra til at omskrive ligningen, så den ukendte variabel står alene på én side.
+
+---
+
+Vi kan udvide dette til en ligning, hvor $x$ er ganget med et tal:
+
+\[
+3x - 3 = 2
+\]
+
+Først flytter vi $-3$ over på den anden side ved at lægge 3 til på begge sider:
+
+\[
+3x - 3 + 3 = 2 + 3 \Rightarrow 3x = 5
+\]
+
+Herefter kan vi omskrive dette som en brøk:
+
+\[
+\frac{3x}{1} = \frac{5}{1}
+\]
+
+For at isolere $x$ deler vi begge sider med 3, eller med andre ord ganger nævneren med 3:
+
+\[
+\frac{3x}{1 \cdot 3} = \frac{5}{1 \cdot 3} \Rightarrow \frac{x}{1} = \frac{5}{3}
+\]
+
+Noget divideret med 1 er blot sig selv, så vi får:
+
+\[
+x = \frac{5}{3}
+\]
+
+Vi har dermed løst ligningen, og $x = \frac{5}{3}$ er den værdi, der gør ligningen sand.
+
+
+Lad os udvide dette lidt mere, og kigge på udtrykket:
+\[
+\frac{x}{3} + \frac{2x}{4} = 0
+\]
+Her kan vi bruge et smart trik, parametrisering. Bemærk at x gå igen på begge brøker, vi kan derfor omskrive det til:
+\[
+\frac{x}{3} + \frac{2x}{4} = 0 \Rightarrow x\left(\frac{1}{3} + \frac{2}{4}\right) = 0
+\]
+Bemærk at hvis vi ganger x ind, får vi det originale udtryk:
+\[
+x\left(\frac{1}{3} + \frac{2}{4}\right) = 0 \Rightarrow \frac{x}{3} + \frac{2x}{4}
+\]
+Dermed har vi ikke ændret på værdien af venstre side, og derfor skal vi ikke gøre noget på højre side. 
+\[
+x\left(\frac{1}{3} + \frac{2}{4}\right) = 0 
+\]
+Her skal vi så holde tungen lige i munden. Først addere vi de to brøkker sammen, vi starter med at finde en fælles nævner for 3 og 4, dette kunne være 12. For at få 3 til at blive til 12 ganger vi det med 4, vi gør det både i tæller og nævner, men kun på 1/3 delen. Husk at når vi omskriver brøker så ændres værdien af brøken ikke:
+\[
+x\left(\frac{4\cdot1}{4\cdot3} + \frac{2}{4}\right) = 0 \Rightarrow x\left(\frac{4}{12} + \frac{2}{4}\right) = 0 
+\]
+Okay, nu skal vi have 2/4 på i nævner der er 12. Vi forlænger med 3 i den brøk:
+\[
+x\left(\frac{4}{12} + \frac{3\cdot2}{3\cdot4}\right) = 0 \Rightarrow x\left(\frac{4}{12} + \frac{6}{12}\right) = 0 
+\]
+Nu kan vi sætte de 2 brøker på sammen brøk-streg:
+\[
+\Rightarrow x\left(\frac{4}{12} + \frac{6}{12}\right) = 0 \Rightarrow \Rightarrow x\left(\frac{4+6}{12}\right) = 0 
+\]
+\[
+\Rightarrow \Rightarrow x\left(\frac{10}{12}\right) = 0 
+\]
+Nu kan vi ophæve parantesen og gange x på:
+\[
+x\left(\frac{10}{12}\right) = 0 \Rightarrow \frac{x10}{12} = 0
+\]
+Vi kan faktisk allerede se her, at x skal være 0 for at denne ligning er sand, men vi vil udfører den for klarhed. Vi vil starte med at flytte 0 på en brøkstreg, og herefter gange 12 på begge tællere:
+\[
+\frac{x10\cdot12}{12} = \frac{0\cdot12}{1} \Rightarrow \frac{x10}{1} = \frac{0}{1} 
+\]
+Husk, at dividere med 0 er no-go, men vi kan gange med 0 altid, det giver blot 0.
+Herefter kan vi gange med 10 i begge nævnere:
+\[
+\frac{x10}{1\cdot10} = \frac{0}{1\cdot10} \Rightarrow \frac{x}{1} = \frac{0}{10} 
+\]
+Her husker vi, at 0 divideret med noget, er stadigt 0, og vi simplificere dette til:
+\[
+x = 0
+\]
