@@ -1,0 +1,76 @@
+\section{Go-To eksempler til ligningsløsning med sin og cos}
+
+Når vi skal løse trigonometriske ligninger, bruger vi ofte **sinus** og **cosinus**. Lad os tage nogle eksempler.
+
+\subsection*{Eksempel 1: Beregning af en katete}
+Vi ønsker at finde den hosliggende katete i en retvinklet trekant. Vi kender: 
+
+\[
+c = 2, \quad A = 30^\circ
+\]
+
+Her kan vi bruge **cosinusformlen**:
+
+\[
+b = c \cdot \Cos(A)
+\]
+
+Indsætter vi værdierne:
+
+\[
+b = 2 \cdot \Cos(30^\circ) \approx 1.732
+\]
+
+---
+
+\subsection*{Eksempel 2: Beregning af vinkler}
+Lad os nu sige, at vi kender begge kateter:
+
+\[
+a = 2, \quad b = 3, \quad c = \sqrt{a^2 + b^2} \approx 3.606
+\]
+
+Vi ønsker at finde vinklerne \(A\) og \(B\). Dette er en retvinklet trekant, så vi ved:
+
+\[
+C = 90^\circ
+\]
+
+Vi kan igen bruge cosinusformlen:
+
+\[
+b = c \cdot \Cos(A)
+\]
+
+For at isolere vinklen \(A\) omskriver vi ligningen:
+
+\[
+\frac{b}{c} = \Cos(A)
+\]
+
+Herefter bruger vi den **inverse cosinusfunktion**:
+
+\[
+A = \Cos^{-1}\left(\frac{b}{c}\right)
+\]
+
+Indsætter vi tallene:
+
+\[
+A = \Cos^{-1}\left(\frac{3}{3.606}\right) \approx 33.7^\circ
+\]
+
+Vinkel \(B\) findes ved at bruge, at summen af vinkler i en trekant altid er \(180^\circ\):
+
+\[
+B = 180^\circ - 90^\circ - 33.7^\circ \approx 56.3^\circ
+\]
+
+---
+
+\textbf{Bemærkninger:}
+\begin{enumerate}
+    \item Vi bruger altid **inverse funktioner** for at isolere vinkler. 
+    \item Husk at skrive grader (\(^\circ\)) når vi arbejder med vinkler.  
+    \item Trin-for-trin-metoden: isoler trigonometrisk funktion → brug inverse funktion → indsæt tal.
+\end{enumerate}
