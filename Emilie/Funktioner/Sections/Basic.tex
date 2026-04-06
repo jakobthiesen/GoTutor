@@ -1,0 +1,93 @@
+\section{Funktioner - The Basics}
+En funktion er et matematisk udtryk, der beskriver sammenhængen mellem en eller flere variable. Simple funktioner opererer typisk med én uafhængig variabel $x$ og en afhængig variabel $f(x)$. Den afhængige variabel afhænger af $x$, hvilket ses i notationen $f(x)$.
+
+Nogle eksempler på funktioner er:
+\begin{align*}
+    f(x) &= x \\
+    g(x) &= 1 + x \\
+    h(x) &= x^2 \\
+    k(x) &= 5x + 1 - 7x^4 \\
+    l(t) &= 3t + 1
+\end{align*}
+
+En funktion er et matematisk udtryk, der bruges til at beskrive en sammenhæng. Vi kan f.eks. beskrive prisen på en taxa-tur. Antag, at der er et fast gebyr på 100 DKK, og derefter koster det 10 DKK pr. kilometer. Funktionen kan skrives som:
+\begin{equation*}
+    T(x) = 100 + 10x
+\end{equation*}
+Her er $T(x)$ den samlede pris, og $x$ er antallet af kørte kilometer. Prisen afhænger altså af, hvor langt der køres.
+
+\subsection{Definitionsmængde}
+Definitionsmængden er den mængde af værdier, som den uafhængige variabel kan antage, uden at funktionen bliver udefineret.
+
+Matematisk bestemmes definitionsmængden af, hvilke værdier der gør udtrykket gyldigt. I praksis kan man også overveje, hvilke værdier der giver mening i en konkret situation. I taxa-eksemplet giver negative værdier af $x$ ikke mening, da man ikke kan køre en negativ afstand.
+
+Rent matematisk er definitionsmængden:
+\begin{equation*}
+    Dm(T) = ]-\infty, \infty[
+\end{equation*}
+Hvis vi kun ønsker realistiske værdier (ikke-negative afstande), kan vi skrive:
+\begin{equation*}
+    Dm(T) = [0, \infty[
+\end{equation*}
+
+Klammerne angiver, om endepunkter er med:
+\begin{itemize}
+    \item $[a,b]$ inkluderer både $a$ og $b$
+    \item $]a,b[$ ekskluderer både $a$ og $b$
+\end{itemize}
+Uendelighed har altid åbne klammer: $]-\infty, \infty[$.
+
+Et eksempel på en funktion, der ikke er defineret for alle $x$, er:
+\begin{equation*}
+    f(x) = \frac{1}{x}
+\end{equation*}
+Man kan ikke dividere med 0, så:
+\begin{equation*}
+    Dm(f) = ]-\infty, 0[ \cup ]0, \infty[
+\end{equation*}
+Her betyder $\cup$ union (forening af mængder).
+
+Et andet eksempel:
+\begin{equation*}
+    g(x) = \frac{1}{x-3}
+\end{equation*}
+Her må $x \neq 3$, så:
+\begin{equation*}
+    Dm(g) = ]-\infty, 3[ \cup ]3, \infty[
+\end{equation*}
+
+\subsection{Værdimængde}
+Værdimængden er de værdier, funktionen kan antage. Man kan forestille sig, at man indsætter alle værdier fra definitionsmængden i funktionen; de værdier, man får ud, udgør værdimængden.
+
+Eksempel:
+\begin{equation*}
+    f(x) = 5x + 3 \qquad Dm(f) = ]-\infty, \infty[
+\end{equation*}
+Funktionen kan antage alle reelle værdier, så:
+\begin{equation*}
+    Vm(f) = ]-\infty, \infty[
+\end{equation*}
+
+Et andet eksempel:
+\begin{equation*}
+    g(x) = 2 + 3x^2 \qquad Dm(g) = ]-\infty, \infty[
+\end{equation*}
+Da $x^2 \geq 0$, vil $g(x) \geq 2$. Minimum opnås for $x=0$:
+\begin{equation*}
+    g(0) = 2
+\end{equation*}
+Funktionen kan vokse uendeligt, så:
+\begin{equation*}
+    Vm(g) = [2, \infty[
+\end{equation*}
+
+\subsection{Identitetsfunktionen}
+Identitetsfunktionen er den simple funktion
+\begin{equation*}
+    f(x) = x
+\end{equation*}
+Det vil sige, at funktionen returnerer den samme værdi, som den får som input.
+
+Generelt gælder, at enhver funktion på formen $f(x) = x$ (eller f.eks. $g(x) = x$) kaldes en identitetsfunktion.
+
+Med andre ord: Den afhængige variabel antager præcis samme værdi som den uafhængige variabel.
